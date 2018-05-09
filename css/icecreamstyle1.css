@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+
+.toffee {
+  color: red;
+}
+
+.main-nav li {
+  color: red;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.name,
+.col {
+  float: left;
+}
+
+.primary,
+.secondary {
+  width: 50%;
+}
+
+.main-nav {
+  float: right;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 15px;
+}

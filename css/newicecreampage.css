@@ -1,0 +1,77 @@
+/*----------BASE LAYOUTS---------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.6em;
+  color: #3a3a3a;
+}
+.title-name a {
+  color: #093a58;
+  text-transform: uppercase;
+  font-size: .90em;
+  text-decoration: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+a {
+  text-decoration: none;
+  color: #093a58;
+}
+.main-logo {
+  max-width: 100%;
+}
+p {
+  font: 1.5em;
+}
+.title-name {
+  margin: 0;
+}
+.title-name a,
+.main-nav a {
+  display: block;
+  text-align: center;
+  padding: 10px 15px;
+  /*background: red;*/
+}
+.main-nav a {
+  color: #3acec2;
+}
+.main-nav a:hover {
+  color: #093a58;
+}
+.main-header {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+.banner,
+.main-footer {
+  text-align: center;
+}
+figure {
+  margin: 0;
+  line-height: 0;
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 0;
+  background: rgba(19,43,102, .35);
+}
+.banner-title {
+  text-shadow: 2px 2px #000;
+
+}
